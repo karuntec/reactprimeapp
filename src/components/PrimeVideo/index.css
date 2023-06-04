@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.prime-image {
+  height: 220px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .prime-image {
+    height: 250px;
+  }
+}
+
+.app-container {
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 28px;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
